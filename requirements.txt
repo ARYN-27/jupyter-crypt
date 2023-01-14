@@ -26,4 +26,3 @@ jupyterlab_materialdarker
 jupyterlab_execute_time
 black
 isort
-jupyterlab-code-formatter
