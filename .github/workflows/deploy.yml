@@ -25,6 +25,9 @@ jobs:
         run: |
           cp README.md content
           jupyter lite build --contents content --output-dir dist
+      - name: Setup up Credentials
+        run: |
+          jupyter lite notebook password ${{ JUPYTER_CREDENTIALS }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
