@@ -26,3 +26,4 @@ jupyterlab_materialdarker
 jupyterlab_execute_time
 black
 isort
+jupyterlab-filesystem-access
