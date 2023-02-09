@@ -27,3 +27,4 @@ jupyterlab_execute_time
 black
 isort
 jupyterlab-filesystem-access
+jupyterlab-github
